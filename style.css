@@ -1,0 +1,38 @@
+calculator{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+.col{
+    background-color: #dadada;
+    border: 1px solid;
+}
+#result{
+    grid-column-start: 1;
+    grid-column-end:5;
+    text-align: start;
+    background-color: rgb(177, 173, 173);
+    border: none;
+    font-weight: bold;
+    padding: 2% !important;
+}
+button{
+    text-align: center;
+    font-size: xx-large;
+    border: none;
+    padding: 20px;
+    background:none;
+}
+#equal{
+    grid-column-start:3 ;
+    grid-column-end:5; 
+} 
+#clear{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+#equal{
+    background-color: blue;
+    color: white;
+}
